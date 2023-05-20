@@ -839,6 +839,13 @@ p {
   appearance: none;
 }
 
+.modal-form-check:checked + .modal-form-check-description .checkbox-icon {
+  border-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+  border-color: #404bbf;
+}
+
 .modal-form-check-description {
   font-size: 12px;
   line-height: 1.17;
