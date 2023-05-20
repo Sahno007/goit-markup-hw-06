@@ -840,7 +840,7 @@ p {
 }
 
 .modal-form-check:checked + .modal-form-check-description .checkbox-icon {
-  border-color: #404bbf;
+  background-color: #404bbf;
   border: none;
   fill: #ffffff;
   border-color: #404bbf;
