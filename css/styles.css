@@ -760,10 +760,13 @@ p {
   display: flex;
   flex-direction: column;
 }
-
-.modal-form-field {
+.name-form {
   margin-bottom: 8px;
 }
+
+/* .modal-form-field {
+  margin-bottom: 8px;
+} */
 
 .modal-form-input-description {
   display: block;
