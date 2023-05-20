@@ -355,7 +355,7 @@
                     growth solutions.</p>
             </div>
 
-            <div>
+            <div class="social-media-area">
                 <p class="media">Social media</p>
                 <ul class="media-list">
                     <li class="media-list-text">
@@ -388,10 +388,29 @@
                     </li>
                 </ul>
             </div>
+
+            <span class="subscribe-area">
+                <p class="subscribe">Subscribe</p>
+                <form class="subscribe-form">
+                    <label class="subscribe-email">
+                        <!-- <span class="modal-form-input-wrapper"> -->
+                        <input type="email" name="user_email" class="subscribe-email-area" placeholder="E-mail">
+                        <!-- </span> -->
+                    </label>
+
+                    <button type="submit" class="subscribe-submit">Subscribe
+                        <svg class="subscribe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-Frame-3"></use>
+                        </svg>
+                    </button>
+                </form>
+            </span>
         </div>
+
+
     </footer>
 
-    <div class="modal" data-modal>
+    <div class="modal is-hidden" data-modal>
         <div class="modal-window">
             <button class="modal-window-close" type="button" data-modal-close>
                 <svg class="modal-icon" width="8" height="8">
@@ -443,7 +462,7 @@
                 <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden">
                 <label for="user-policy" class="modal-form-check-description">
                     I accept the terms and conditions of the&nbsp;
-                    <a href="">Privacy Policy</a>
+                    <a class="privacy-policy" href="">Privacy Policy</a>
                 </label>
 
                 <button type="submit" class="modal-submit">Send</button>
