@@ -507,7 +507,6 @@ p {
 }
 
 .subscribe-submit {
-  display: flex;
   justify-content: center;
   background-color: var(--logo-button-color);
   font-family: "Roboto", sans-serif;
