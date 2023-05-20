@@ -832,6 +832,13 @@ p {
   margin-bottom: 24px;
 }
 
+.modal-form-check {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .modal-form-check-description {
   font-size: 12px;
   line-height: 1.17;
