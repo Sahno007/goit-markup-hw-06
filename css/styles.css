@@ -497,6 +497,14 @@ p {
   margin-bottom: 16px;
 }
 
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-email {
+  margin-right: 24px;
+}
+
 .subscribe-email-area {
   width: 264px;
   height: 40px;
